@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 
 
 
-public class GenericDAO<T> {
+public abstract class GenericDAO<T> {
 	private Class<T> klass;
 	
 	public GenericDAO (Class<T> t) {
